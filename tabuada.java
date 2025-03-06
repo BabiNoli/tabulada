@@ -9,6 +9,7 @@ public class tabuada {
         
         var numero = Integer.parseInt(numeroStr);
 
+        //botoes de opcoes de operacoes
         String[] options = {"Adição", "Subtração", "Multiplicação", "Divisão"};
         int operacao = JOptionPane.showOptionDialog(null, "Que operação deseja fazer?", "Escolha a operação",
                 JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options, options[0]);
