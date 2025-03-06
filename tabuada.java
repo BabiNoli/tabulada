@@ -3,6 +3,8 @@ import javax.swing.JOptionPane;
 public class tabuada {
 
     public static void main(String[] args) {
+
+        //interface grafica minima
         var numeroStr = JOptionPane.showInputDialog(null, "Digite um número:", "Vamos aprender a Tabuada!", JOptionPane.QUESTION_MESSAGE);
         
         var numero = Integer.parseInt(numeroStr);
@@ -40,7 +42,7 @@ public class tabuada {
         
         JOptionPane.showMessageDialog(null, tabuada.toString(), "Tabuada do " + numero, JOptionPane.PLAIN_MESSAGE);
       
- 
+        
     }
     
 }
